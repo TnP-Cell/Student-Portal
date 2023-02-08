@@ -1,0 +1,34 @@
+{
+  "name": "student-portal",
+  "version": "1.0.0",
+  "description": "Student Management Portal for IIIT Bhagalpur Students",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TnP-Cell/Student-Portal.git"
+  },
+  "keywords": [
+    "IIITBH"
+  ],
+  "author": "IIITBH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TnP-Cell/Student-Portal/issues"
+  },
+  "homepage": "https://github.com/TnP-Cell/Student-Portal#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
