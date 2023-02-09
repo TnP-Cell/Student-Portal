@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const url = process.env.DB_URL;
+mongoose.set('strictQuery', true);
 
 const connect = () => {
   try {
